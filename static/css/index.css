@@ -1,0 +1,64 @@
+* {
+    font-family: 'Consolas', 'Liberation Mono', 'Courier', 'monospace';
+}
+
+a:hover {
+    color: 0099FF !important;
+}
+
+.title {
+    position: relative;
+    margin: 20px 0 20px 0;
+    height: 40px;
+    border-bottom: 2px solid #0088cc;
+    width: 100%;
+}
+
+.title-name {
+    float: left;
+    font-size: 40px;
+    height: 100%;
+    width: 200px;
+}
+
+.title-name a:hover {
+    text-decoration:none;
+    color: 0099FF;
+}
+
+.category {
+    position: relative;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.category-item {
+    margin: 0 0 0 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.post {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #888;
+}
+
+.page {
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #888;
+}
+
+.footer {
+    text-color: #AAA;
+}
+
+blockquote p {
+    font-size: 14px !important;
+}
